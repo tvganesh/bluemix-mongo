@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1= "Display the list of Users"
+  p 
+  strong Firstname Lastname   Mobile
+                  
+  table
+     each user, i in userlist
+        tr
+          td #{user.FirstName}
+          td #{user.LastName}
+          td #{user.Mobile}
+  p
+  p
+  a(href='/') Home

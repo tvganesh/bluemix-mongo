@@ -1,0 +1,10 @@
+block content
+    h1= "Update a User"
+    form#formUpdateUser(name="updateuser",method="post",action="/updateuser")
+        input#inputFirstname(type="text", placeholder="firstname", name="firstname")
+        input#inputLastName(type="text", placeholder="lastname", name="lastname")
+        input#inputMobile(type="text", placeholder="mobile", name="mobile")
+        button#btnSubmit(type="submit") submit
+    p
+    p
+    a(href='/') Home

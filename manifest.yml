@@ -1,0 +1,8 @@
+applications:
+- name: bluemix-mongo
+  memory: 256M
+  instances: 1
+  host: bluemix-mongo
+  domain: mybluemix.net
+  path: .
+  command: node app.js

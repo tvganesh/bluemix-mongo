@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  ul
+      li 
+        a(href='/userlist') Display list of users
+      li
+        a(href='/newuser') Add a user
+      li
+        a(href='/changeuser') Update a user
+      li
+        a(href='/remuser') Delete a user
+  
